@@ -1,32 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-$dark: #000000;
-$light: #FFFFFF;
-
-body {
-  background-color: $dark;
-  padding: 20px;
-}
-
-.burger {
-  padding: 10px;
-  display: inline-block;
-  cursor: pointer;
-  background-color: transparent;
-  border: 0;
-  margin: 0;
-}
-
-.burger, .navigation {
-  transition: transform .3s .1s ease-in-out;
-}
-
 .burger--active {
   transform: translatex(250px);
 }
